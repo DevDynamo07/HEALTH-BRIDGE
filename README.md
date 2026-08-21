@@ -1,4 +1,4 @@
-# 🏥 HEALTH-BRIDGE
+ 🏥 HEALTH-BRIDGE
 
 **HEALTH-BRIDGE** is a modern digital healthcare platform designed to connect patients, doctors, and healthcare services through a centralized web application.
 
