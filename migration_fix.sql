@@ -10,6 +10,8 @@ DROP POLICY IF EXISTS "Doctors can create requests" ON access_requests;
 DROP POLICY IF EXISTS "Patients can update request status" ON access_requests;
 DROP POLICY IF EXISTS "Patients manage own records" ON health_records;
 DROP POLICY IF EXISTS "Granted doctors can view records" ON health_records;
+DROP POLICY IF EXISTS "New Recodrs can be seen" ON health_records;
+
 
 -- Enable RLS
 ALTER TABLE profiles ENABLE ROW LEVEL SECURITY;
