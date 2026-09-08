@@ -3,7 +3,6 @@
 
 -- Add health_id column to profiles
 ALTER TABLE profiles ADD COLUMN IF NOT EXISTS health_id TEXT UNIQUE;
-ALTER TABLE profiles ADD COLUMN IF NOT EXISTS health_id TEXT UNIQUE;
 
 ALTER TABLE profiles ADD COLUMN IF NOT EXISTS health_id_created_at TIMESTAMPTZ;
 
